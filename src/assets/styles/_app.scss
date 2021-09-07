@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.c-pointer {
+    cursor: pointer;
+}
+.v-avatar {
+    width: 70px;
+    height: 70px;
+}
+
+.bg-light {
+    background-color: #e2e3e4;
+}
+
+// custom theme colors
+@import "./theme-colors";
+
+// bootstrap required
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+//  Bootstrap and its default variables
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+//  BootstrapVue and its default variables
+@import "../../../node_modules/bootstrap-vue/src/index.scss";
+
+// custom styling
+@import "./card";
+@import "./button";
